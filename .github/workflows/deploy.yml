@@ -23,6 +23,14 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Create .nojekyll to disable Jekyll processing
+        run: |
+          if [ -d "docs" ]; then
+            touch docs/.nojekyll
+          else
+            mkdir -p docs && touch docs/.nojekyll
+          fi
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
