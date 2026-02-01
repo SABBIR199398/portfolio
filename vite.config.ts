@@ -10,6 +10,8 @@ export default defineConfig({
     strictPort: true
   },
   build: {
-    outDir: 'dist',
+    // GitHub Pages can serve the site from the repository's /docs folder on main.
+    outDir: 'docs',
+    emptyOutDir: true,
   },
 });
