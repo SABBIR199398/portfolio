@@ -1,3 +1,19 @@
+# Portfolio
+
+![Deploy](https://github.com/SABBIR199398/portfolio/actions/workflows/deploy.yml/badge.svg)
+
+This repository hosts the portfolio website. The site is built with Vite and deployed to the `gh-pages` branch.
+
+Live URL: https://SABBIR199398.github.io/portfolio/
+
+If you need to rebuild locally:
+
+```bash
+npm ci
+npm run build
+```
+
+The GitHub Action `Build and deploy` runs on push to `main` and publishes the generated `docs/` to `gh-pages`.
 # Portfolio Website
 
 This is a portfolio website built using React.js, Tailwind CSS, React Query, PrimeReact, and Vite. The project showcases various projects and skills in a modern and responsive design.
