@@ -112,9 +112,15 @@ const Home: React.FC = () => (
       <div className="mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {[
           {
+            title: "MediaApp",
+            description:
+              "A news platform  with personalized content feeds, offline reading, and push notifications. built with React Native and Razorpay integration for seamless subscriptions to events and premium content.",
+            tags: ["React Native", "Firebase", "Push Notifications", "Razorpay" ],
+          },
+          {
             title: "HMI ONE App",
             description:
-              "Telemedicine platform with video consultations, specialist booking, QR medical cards, Stripe payments, and a modular MVVM architecture.",
+              "Telemedicine platform with video consultations, specialist booking,Health Screening, QR medical cards, Stripe payments, and a modular MVVM architecture.",
             tags: ["React Native", "Redux", "Stripe", "SSL Pinning"],
           },
           {
@@ -136,16 +142,16 @@ const Home: React.FC = () => (
             tags: ["Android", "Java", "Maps"],
           },
           {
-            title: "Hungry Scholar",
+            title: "Restaurant Ordering System",
             description:
               "Multi-restaurant ordering with menu customization, Payeezy payments, and secure API integrations.",
             tags: ["Android", "iOS", "REST APIs"],
           },
           {
-            title: "Mobile Growth Toolkit",
+            title: "PikyGo",
             description:
-              "Reusable design system and feature modules to accelerate new releases with consistent UX.",
-            tags: ["Design System", "Figma", "CI/CD"],
+              "Marketplace app for USA that connect to various marketplace APIs to provide seamless shopping experience.",
+            tags: ["IOS", "Figma", "Stripe"],
           },
         ].map((project) => (
           <div key={project.title} className="bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col project-card hover:border-white/30">
