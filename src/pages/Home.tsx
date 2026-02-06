@@ -35,7 +35,7 @@ const Home: React.FC = () => (
           <div className="bg-gradient-to-br from-sky-400/30 to-indigo-500/20 rounded-2xl p-6">
             <div className="grid grid-cols-2 gap-4 text-sm text-slate-200">
               <div className="bg-white/10 rounded-xl p-4 hover:bg-white/15 transition duration-300 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-                <p className="text-2xl font-semibold text-white">8+</p>
+                <p className="text-2xl font-semibold text-white">9+</p>
                 <p className="text-slate-300">Years Experience</p>
               </div>
               <div className="bg-white/10 rounded-xl p-4 hover:bg-white/15 transition duration-300 animate-fade-in-up" style={{animationDelay: '0.5s'}}>
@@ -43,7 +43,7 @@ const Home: React.FC = () => (
                 <p className="text-slate-300">Apps Delivered</p>
               </div>
               <div className="bg-white/10 rounded-xl p-4 hover:bg-white/15 transition duration-300 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-                <p className="text-2xl font-semibold text-white">12</p>
+                <p className="text-2xl font-semibold text-white">5</p>
                 <p className="text-slate-300">Industries Served</p>
               </div>
               <div className="bg-white/10 rounded-xl p-4 hover:bg-white/15 transition duration-300 animate-fade-in-up" style={{animationDelay: '0.7s'}}>
@@ -107,7 +107,7 @@ const Home: React.FC = () => (
           <h2 className="text-3xl font-semibold text-white">Featured Projects</h2>
           <p className="text-slate-300 mt-2">A selection of mobile products delivered with measurable impact.</p>
         </div>
-        <a href="#contact" className="text-sm text-sky-300 hover:text-sky-200 transition duration-300">Request full case studies →</a>
+        {/* <a href="#contact" className="text-sm text-sky-300 hover:text-sky-200 transition duration-300">Request full case studies →</a> */}
       </div>
       <div className="mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {[
@@ -228,18 +228,16 @@ const Home: React.FC = () => (
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <a
-                href="mailto:sabbir.sheikh@example.com"
+                href="mailto:sabbir.s1993@gmail.com"
                 className="bg-sky-400 text-slate-950 px-6 py-3 rounded-full font-semibold hover:bg-sky-300 transition"
               >
                 Email Me
               </a>
               <a
-                href="https://calendly.com"
-                target="_blank"
-                rel="noreferrer"
+                href="tel:+919824875322"
                 className="border border-white/20 px-6 py-3 rounded-full font-semibold text-white hover:bg-white/10 transition"
               >
-                Book a Call
+                Contact
               </a>
             </div>
           </div>
