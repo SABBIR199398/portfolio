@@ -6,7 +6,7 @@ const Home: React.FC = () => (
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.18),_transparent_55%)]" />
       <div className="relative max-w-6xl mx-auto px-6 pt-20 pb-16 grid md:grid-cols-[1.15fr_0.85fr] gap-10 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs text-slate-200 border border-white/10 animate-fade-in-down" style={{animationDelay: '0.1s'}}>
+          <div className="inline-flex items-center gap-2 px-6 py-1 rounded-full bg-white/10 text-xl text-slate-200 border border-white/10 animate-fade-in-down" style={{animationDelay: '0.1s'}}>
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-glow"></span>
             Available for freelance & full-time roles
           </div>
@@ -254,9 +254,9 @@ const Home: React.FC = () => (
             <div className="bg-white/10 rounded-2xl p-4">
               <p className="text-white font-semibold">Social</p>
               <div className="mt-2 flex gap-3">
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white">LinkedIn</a>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white">GitHub</a>
-                <a href="https://dribbble.com" target="_blank" rel="noreferrer" className="hover:text-white">Dribbble</a>
+                <a href="https://www.linkedin.com/in/sabbir-sheikh-17079ba7/" target="_blank" rel="noreferrer" className="hover:text-white">LinkedIn</a>
+                <a href="https://github.com/SABBIR199398" target="_blank" rel="noreferrer" className="hover:text-white">GitHub</a>
+                {/* <a href="https://dribbble.com" target="_blank" rel="noreferrer" className="hover:text-white">Dribbble</a> */}
               </div>
             </div>
           </div>
